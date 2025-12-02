@@ -1,5 +1,4 @@
 import React from "react";
-// import HomeContainerImage from "../../assets/HomeContainer.svg";
 import HomeSecondImage from "../../assets/HomeSecondImage.svg";
 import TickerAnimation from "../molecules/TickerAnimation";
 import HomeStart from "../../assets/HomeStart.svg";
@@ -8,11 +7,6 @@ const Home = () => {
   return (
     <div className="flex gap-5">
       <div className="bg-[#1A1A1A] rounded-[20px]">
-        {/* <img
-          className="mt-[100px] m-20"
-          src={HomeContainerImage}
-          alt="home svg"
-        /> */}
         <div className="flex flex-col gap-1 mt-[100px] w-[1047px] mx-20 uppercase relative">
           <h1 className="text-[78px] text-[#F9EFEC] font-flex font-semibold leading-[150%]">
             Digital Solutions
