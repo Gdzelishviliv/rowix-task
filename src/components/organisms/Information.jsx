@@ -1,5 +1,6 @@
 import React from "react";
 import InfoCard from "../atoms/InfoCard";
+import SectionHeader from "../atoms/SectionHeader";
 
 const Information = () => {
   const CardInfo = [
@@ -26,9 +27,7 @@ const Information = () => {
   ];
   return (
     <div className="flex flex-col gap-5 border-2 border-[#1F1F1F] p-5 rounded-[20px] mt-[100px]">
-      <div className="font-flex p-[50px] font-semibold h-[156px] text-[48px] text-[#F9EFEC] bg-[#1A1A1A] w-full rounded-2xl uppercase">
-        Reasons to Choose NexGen for Your Digital Journey
-      </div>
+      <SectionHeader text="Reasons to Choose NexGen for Your Digital Journey" />
       <div className="flex gap-5">
         {CardInfo.map((card, index) => (
           <InfoCard

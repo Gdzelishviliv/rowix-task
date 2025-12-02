@@ -3,6 +3,7 @@ import Achivements from "./components/organisms/Achivements";
 import Header from "./components/organisms/Header";
 import Home from "./components/organisms/Home";
 import Information from "./components/organisms/Information";
+import Services from "./components/organisms/Services";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <Achivements />
       <Information />
+      <Services />
     </>
   );
 }
