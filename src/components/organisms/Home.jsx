@@ -1,21 +1,25 @@
 import React from "react";
 import HomeContainerImage from "../../assets/HomeContainer.svg";
 import HomeSecondImage from "../../assets/HomeSecondImage.svg";
+import TickerAnimation from "../molecules/TickerAnimation";
+
 const Home = () => {
   return (
     <div className="flex gap-5">
-      <div className="bg-[#1A1A1A] rounded-[20px] pt-[100px] px-20">
+      <div className="bg-[#1A1A1A] rounded-[20px]">
         <img
+          className="mt-[100px] mx-20"
           src={HomeContainerImage}
           alt="home svg"
           width={1047}
           height={238}
         />
-        <p className="text-[#676665] text-[18px] font-regular font-flex">
+        <p className="text-[#676665] text-[18px] mx-20 font-regular font-flex max-w-[927px]">
           At NexGen, we believe in the transformative power of digital
           solutions. Our team of experts is dedicated to helping businesses like
           yours thrive in the fast-paced digital landscape.
         </p>
+        <TickerAnimation />
       </div>
       <div className="flex flex-col rounded-[20px] relative">
         <img
@@ -30,7 +34,7 @@ const Home = () => {
             Estatein Real Estate
           </h4>
           <p className="text-[#B3B3B2] text-[18px] font-regular font-flex">
-            Web Development.{" "}
+            Web Development.
           </p>
         </div>
       </div>
