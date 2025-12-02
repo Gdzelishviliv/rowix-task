@@ -21,7 +21,6 @@ const Header = () => {
         width={129.7071075439453}
         height={24}
       />
-
       <div className="flex justify-between gap-4">
         {headerItems.map((item) => (
           <HeaderButton

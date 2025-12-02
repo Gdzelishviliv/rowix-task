@@ -8,3 +8,12 @@ body {
   height: 100vh;
   background-color: #0f0f0f;
 }
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@theme{
+  --font-flex: 'Roboto Flex', sans-serif;
+  --font-mono: 'Roboto Mono', monospace;
+}
