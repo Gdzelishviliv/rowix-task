@@ -1,6 +1,7 @@
 import "./App.css";
 import Question from "./components/molecules/Question";
 import Achivements from "./components/organisms/Achivements";
+import Footer from "./components/organisms/Footer";
 import Header from "./components/organisms/Header";
 import Home from "./components/organisms/Home";
 import Information from "./components/organisms/Information";
@@ -21,6 +22,7 @@ function App() {
       <Testimonials />
       <Questions />
       <Question />
+      <Footer />
     </>
   );
 }
