@@ -1,4 +1,5 @@
 import "./App.css";
+import Question from "./components/molecules/Question";
 import Achivements from "./components/organisms/Achivements";
 import Header from "./components/organisms/Header";
 import Home from "./components/organisms/Home";
@@ -19,6 +20,7 @@ function App() {
       <Projects />
       <Testimonials />
       <Questions />
+      <Question />
     </>
   );
 }
