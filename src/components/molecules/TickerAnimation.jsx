@@ -23,7 +23,7 @@ const TickerAnimation = ({ version }) => {
       className={`
         flex justify-center items-center h-[70px] font-mono rounded-[20px] 
         overflow-hidden relative 
-        ${version === "v2" ? "bg-[#1A1A1A] mx-0 mb-5" : "bg-[#0F0F0F] mx-5 mb-5 mt-[90px]"}
+        ${version === "v2" ? "bg-[#1A1A1A] mx-0 mb-0" : "bg-[#0F0F0F] mx-5 mb-5 mt-[90px]"}
       `}
     >
       <div
