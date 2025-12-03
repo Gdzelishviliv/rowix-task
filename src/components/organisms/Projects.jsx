@@ -6,7 +6,7 @@ import Project from "../molecules/Project";
 const Projects = () => {
   return (
     <div className="mt-[100px]">
-      <SectionHeaderV0 text="Our Works" />
+      <SectionHeaderV0 text="Our Works" variant="all works" />
       {projects.map((project) => (
         <Project
           icon={project.icon}

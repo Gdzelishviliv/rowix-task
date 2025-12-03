@@ -5,6 +5,7 @@ import Home from "./components/organisms/Home";
 import Information from "./components/organisms/Information";
 import Projects from "./components/organisms/Projects";
 import Services from "./components/organisms/Services";
+import Testimonials from "./components/organisms/Testimonials";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Information />
       <Services />
       <Projects />
+      <Testimonials />
     </>
   );
 }

@@ -1,4 +1,3 @@
-// src/data/projects.js
 import Zenith from "../assets/Zenith.svg";
 import ZenithImage from "../assets/ZenithImage.svg";
 import A from "../assets/A.svg";
@@ -6,7 +5,6 @@ import B from "../assets/B.svg";
 import C from "../assets/C.svg";
 import D from "../assets/D.svg";
 import E from "../assets/E.svg";
-
 import Aura from "../assets/Aura.svg";
 import AuraImage from "../assets/AuraImage.svg";
 import I from "../assets/I.svg";
