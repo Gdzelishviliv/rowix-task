@@ -27,5 +27,5 @@ body {
 }
 
 .animate-ticker-horizontal {
-  animation: ticker-horizontal var(--ticker-duration, 20s) linear infinite;
+  animation: ticker-horizontal var(--ticker-duration) linear infinite;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-const texts = [
+const V1 = [
   "Digital Marketing",
   "Website Design",
   "Branding",
@@ -8,14 +8,29 @@ const texts = [
   "Mobile App Development",
 ];
 
-const TickerAnimation = () => {
+const V2 = [
+  "Follow Us on Social Media",
+  "Follow Us on Social Media",
+  "Follow Us on Social Media",
+  "Follow Us on Social Media",
+];
+
+const TickerAnimation = ({ version }) => {
+  const items = version === "v2" ? V2 : V1;
+
   return (
-    <div className="flex justify-center items-center h-[70px] bg-[#0F0F0F] font-mono mt-[90px] mb-5 mx-5 rounded-[20px] overflow-hidden relative">
+    <div
+      className={`
+        flex justify-center items-center h-[70px] font-mono rounded-[20px] 
+        overflow-hidden relative 
+        ${version === "v2" ? "bg-[#1A1A1A] mx-0 mb-5" : "bg-[#0F0F0F] mx-5 mb-5 mt-[90px]"}
+      `}
+    >
       <div
         className="absolute top-0 flex animate-ticker-horizontal"
         style={{ "--ticker-duration": "20s" }}
       >
-        {[...texts, ...texts].map((text, index) => (
+        {[...items, ...items].map((text, index) => (
           <div
             key={index}
             className="flex items-center gap-5 text-[#676665] font-mono text-[20px] h-[70px] pl-5 shrink-0"
