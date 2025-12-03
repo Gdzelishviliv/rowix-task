@@ -5,7 +5,7 @@ body {
   margin: auto;
   padding: 30px 50px;
   max-width: 1920px;
-  height: 100vh;
+  height: 100%;
   background-color: #0f0f0f;
 }
 #root {
@@ -13,9 +13,9 @@ body {
   flex-direction: column;
   gap: 20px;
 }
-@theme{
-  --font-flex: 'Roboto Flex', sans-serif;
-  --font-mono: 'Roboto Mono', monospace;
+@theme {
+  --font-flex: "Roboto Flex", sans-serif;
+  --font-mono: "Roboto Mono", monospace;
 }
 @keyframes ticker-horizontal {
   0% {

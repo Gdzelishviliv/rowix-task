@@ -6,12 +6,12 @@ import testimonialsData from "../../data/testimonials";
 const Testimonials = () => {
     
   return (
-    <div className="flex flex-col gap-5 border-2 border-[#1F1F1F] rounded-3xl p-5">
-      <SectionHeaderV0 text="Testimonials" variant="all ALL Testimonials" />
+    <div className="flex flex-col gap-5 border-2 border-[#1F1F1F] rounded-3xl p-5 mt-[120px]">
+      <SectionHeaderV0 text="Testimonials" variant="ALL Testimonials" />
       <div className="flex gap-5">
         {testimonialsData.map((testimonial) => (
           <TestimonialsCard
-            key={testimonial.name}
+            key={testimonial.id}
             header={testimonial.header}
             paragraph={testimonial.paragraph}
             image={testimonial.image}

@@ -9,6 +9,7 @@ const Projects = () => {
       <SectionHeaderV0 text="Our Works" variant="all works" />
       {projects.map((project) => (
         <Project
+          key={project.id}
           icon={project.icon}
           title={project.title}
           category={project.category}
