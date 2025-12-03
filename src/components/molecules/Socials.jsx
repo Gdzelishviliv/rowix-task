@@ -4,7 +4,7 @@ import SocialsData from "../../data/Socials";
 
 const Socials = () => {
   return (
-    <div className="grid grid-cols-2 gap-5">
+    <div className="grid grid-cols-2 gap-5 cursor-pointer">
       {SocialsData.map((social, index) => (
         <SocialCard
           key={social.title + index}

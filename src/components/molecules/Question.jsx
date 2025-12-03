@@ -5,7 +5,7 @@ import TickerAnimation from "./TickerAnimation";
 const Question = () => {
   return (
     <>
-      <div className="flex justify-between gap-[250px] h-[305px] items-end bg-[#CE7D63] rounded-[20px] p-20">
+      <div className="flex justify-between gap-[250px] h-[305px] items-end bg-[#CE7D63] rounded-[20px] p-20 mt-[100px]">
         <div className="max-w-[1187px]">
           <h2 className="font-flex font-medium text-[58px] uppercase text-[#0F0F0F] min-w-[1324px] leading-[150%]">
             Ready to Transform Your Digital Presence?
