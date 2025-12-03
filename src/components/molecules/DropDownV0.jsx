@@ -4,7 +4,13 @@ import Minus from "../../assets/minus.svg";
 
 const DropDownV0 = ({ title, subtext, open, onToggle }) => {
   return (
-    <div className="bg-[#1A1A1A] rounded-2xl py-10 px-[60px] flex flex-col justify-between items-center text-center">
+    <div
+      className={`bg-[#1A1A1A] rounded-2xl py-10 px-[60px] flex flex-col justify-between items-center text-center max-h-[260px] ${
+        open
+          ? "h-[260px]"
+          : "h-auto"
+      }`}
+    >
       <div className="flex justify-between items-center w-full gap-[50px]">
         <h6
           className={`

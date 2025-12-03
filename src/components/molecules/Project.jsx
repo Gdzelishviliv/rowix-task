@@ -1,5 +1,6 @@
 import React from "react";
 import ArrowRight from "../../assets/ArrowRight.svg";
+import OrangeButton from "../atoms/OrangeButton";
 
 const Project = ({
   icon,
@@ -77,9 +78,7 @@ const Project = ({
             ))}
           </div>
         </div>
-        <button className="text-[#0F0F0F] uppercase flex justify-center items-center bg-[#CE7D63] h-[63px] rounded-xl font-flex font-medium text-[18px] w-full cursor-pointer">
-          Book A Call
-        </button>
+        <OrangeButton text="Book A Call" />
       </div>
     </div>
   );
