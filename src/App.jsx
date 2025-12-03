@@ -4,6 +4,7 @@ import Header from "./components/organisms/Header";
 import Home from "./components/organisms/Home";
 import Information from "./components/organisms/Information";
 import Projects from "./components/organisms/Projects";
+import Questions from "./components/organisms/Questions";
 import Services from "./components/organisms/Services";
 import Testimonials from "./components/organisms/Testimonials";
 
@@ -17,6 +18,7 @@ function App() {
       <Services />
       <Projects />
       <Testimonials />
+      <Questions />
     </>
   );
 }
