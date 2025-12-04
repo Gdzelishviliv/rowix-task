@@ -53,7 +53,7 @@ const FooterTop = () => {
               >
                 {link.name}{" "}
                 {link.soon ? (
-                  <span className="text-[#CCCCCC] font-mono text-[16px] tracking-[-3%] bg-[#262626] border-[#333333] py-1 px-3 rounded-[6px]">
+                  <span className="text-[#CCCCCC] font-mono text-[16px] tracking-[-3%] bg-[#262626] border border-[#333333] py-1 px-3 rounded-[6px]">
                     Soon
                   </span>
                 ) : (
