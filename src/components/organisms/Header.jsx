@@ -1,18 +1,9 @@
 import React from "react";
 import HeaderLogo from "../../assets/HeaderLogo.svg";
 import HeaderButton from "../atoms/HeaderButton";
+import headerItems from "../../data/HeaderData";
 
 const Header = () => {
-  const headerItems = [
-    { name: "home" },
-    { name: "services" },
-    { name: "projects" },
-    { name: "about" },
-    { name: "contact" },
-    { name: "blogs" },
-    { name: "contact us", variant: "contact" },
-  ];
-
   return (
     <header className="flex p-6 pl-[50px] h-[111px] rounded-2xl justify-between items-center bg-[#1A1A1A]">
       <img
